@@ -1,0 +1,946 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Poppins;
+    }
+    
+    body{
+    background:#f9f2f4;
+    color:#4a1c2b;
+    }
+    
+    
+    /* NAVBAR */
+    
+    .navbar{
+    
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    
+    padding:15px 50px;
+    background:white;
+    
+    border-bottom:1px solid #eee;
+    }
+    
+    .logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    color:#e11d48;
+    }
+    
+    .logo .heart{
+    font-size:22px;
+    }
+    
+    nav ul{
+    display:flex;
+    gap:25px;
+    list-style:none;
+    }
+    
+    nav li{
+    cursor:pointer;
+    color:#6b2d3a;
+    }
+    
+    nav .active{
+    background:#ffe4ea;
+    padding:6px 12px;
+    border-radius:20px;
+    }
+    
+    .bell{
+    background:#ffe4ea;
+    padding:8px 12px;
+    border-radius:8px;
+    }
+    
+    
+    
+    /* HERO */
+    
+    .hero{
+    padding:60px 80px;
+    align-items: center;
+    ;
+    }
+    
+    .hero h1{
+    
+    font-size:42px;
+    margin-bottom:20px;
+    max-width:900px;
+    align-items: center;
+    }
+    
+    .hero p{
+    
+    max-width:800px;
+    margin-bottom:30px;
+    align-items: center;
+    line-height:1.6;
+    
+    }
+    
+    
+    /* BUTTONS */
+    
+    .btn{
+    
+    display:block;
+    width:700px;
+    
+    padding:16px;
+    margin-bottom:15px;
+    margin-left: 250px;
+    border:none;
+    border-radius:30px;
+    
+    font-size:16px;
+    cursor:pointer;
+    
+    }
+    
+    .primary{
+    background:#d81b60;
+    color:white;
+    }
+    
+    .secondary{
+    background:#ff4d6d;
+    color:white;
+    }
+    
+    .btn1{
+        background-color: #d81b60;
+        color: white;
+        
+    
+            display:block;
+            
+            width:700px;
+            
+            padding:16px;
+            margin-bottom:15px;
+            margin-left: 330px;
+            
+            border:none;
+            border-radius:30px;
+            
+            font-size:16px;
+            text-align: center;
+            cursor:pointer;
+            
+            
+    }
+    .btn2{
+        background-color: #d81b60;
+        color: white;
+        
+    
+            display:flex;
+            justify-content: center;
+            width:700px;
+            margin-left: 330px;            
+            padding:16px;
+            margin-bottom:15px;
+            
+            border:none;
+            border-radius:30px;
+            
+            font-size:16px;
+            align-items: center;
+            cursor:pointer;
+            
+            
+    }
+
+    /* HERO IMAGE */
+    
+    .hero-image img{
+    height : 500px;
+    width: 1000px;
+    margin:40px auto;
+    display:block;
+    border-radius:15px;
+    }
+    
+    
+    
+    /* STATS */
+    
+    .stats{
+    
+    background:#c9184a;
+    color:white;
+    
+    display:flex;
+    justify-content:space-around;
+    
+    padding:40px;
+    
+    text-align:center;
+    
+    }
+    
+    .stat h2{
+    font-size:32px;
+    margin-bottom:5px;
+    }
+    
+    
+    
+    /* HOW SECTION */
+    
+    .how{
+    
+    text-align:center;
+    padding:60px 20px;
+    
+    }
+    
+    .how h2{
+    margin-bottom:10px;
+    }
+    
+    
+    
+    /* CARDS */
+    
+    .cards{
+    
+    display:flex;
+    gap:30px;
+    
+    padding:40px 80px;
+    
+    }
+    
+    .card{
+    
+    background:white;
+    
+    padding:30px;
+    
+    border-radius:15px;
+    
+    box-shadow:0 10px 20px rgba(0,0,0,0.05);
+    
+    width:50%;
+    
+    }
+    
+    .icon{
+    
+    font-size:28px;
+    
+    background:#ffe4ea;
+    
+    padding:15px;
+    
+    display:inline-block;
+    
+    border-radius:12px;
+    
+    margin-bottom:15px;
+    
+    }
+    
+    .card h3{
+    margin-bottom:10px;
+    }
+    
+    .card a{
+    
+    color:#e11d48;
+    text-decoration:none;
+    font-weight:500;
+    
+    }
+
+    .footer{
+        color: white;
+        background-color: #d81b60;
+    
+            text-align:center;
+            padding:60px 20px;
+            
+            
+    }
+    /* ===== LifeLink Blood Finder Page Styles ===== */
+
+.ll-topbar-shell{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 45px;
+    background:white;
+    box-shadow:0 3px 12px rgba(0,0,0,0.08);
+    }
+    
+    .ll-brand-badge{
+    font-size:22px;
+    font-weight:bold;
+    color:#e11d48;
+    }
+    
+    .ll-menu-track{
+    list-style:none;
+    display:flex;
+    gap:24px;
+    }
+    
+    .ll-menu-track a{
+    text-decoration:none;
+    color:#444;
+    font-size:15px;
+    transition:0.3s;
+    }
+    
+    .ll-menu-track a:hover{
+    color:#e11d48;
+    }
+    
+    /* ===== Blood Search Section ===== */
+    
+    .ll-search-stage{
+    text-align:center;
+    margin-top:90px;
+    }
+    
+    .ll-main-title{
+    font-size:34px;
+    margin-bottom:10px;
+    }
+    
+    .ll-subtext{
+    color:#666;
+    margin-bottom:35px;
+    }
+    
+    /* ===== Form Card ===== */
+    
+    .ll-form-card{
+    width:620px;
+    margin:auto;
+    background:white;
+    padding:35px;
+    border-radius:12px;
+    box-shadow:0 6px 18px rgba(0,0,0,0.1);
+    text-align:left;
+    }
+    
+    .ll-label-text{
+    display:block;
+    margin-top:15px;
+    font-weight:600;
+    }
+    
+    .ll-input-field{
+    width:100%;
+    padding:12px;
+    margin-top:8px;
+    border-radius:7px;
+    border:1px solid #ccc;
+    font-size:14px;
+    }
+    
+    .ll-input-field:focus{
+    outline:none;
+    border-color:#e11d48;
+    }
+    
+    .ll-urgent-box{
+    margin-top:15px;
+    font-size:14px;
+    display:flex;
+    align-items:center;
+    gap:8px;
+    }
+    
+    /* ===== Search Button ===== */
+    
+    .ll-search-trigger{
+    width:100%;
+    margin-top:22px;
+    padding:14px;
+    border:none;
+    background:#e11d48;
+    color:white;
+    font-size:16px;
+    border-radius:9px;
+    cursor:pointer;
+    transition:0.3s;
+    }
+    
+    .ll-search-trigger:hover{
+    background:#be123c;
+    transform:scale(1.02);
+    }
+
+    /* ===== REQUEST PAGE ===== */
+
+.rq-topbar-frame{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 45px;
+    background:white;
+    box-shadow:0 3px 10px rgba(0,0,0,0.08);
+    }
+    
+    .rq-brand-mark{
+    font-size:22px;
+    font-weight:bold;
+    color:#d61a46;
+    }
+    
+    .rq-nav-stream{
+    list-style:none;
+    display:flex;
+    gap:24px;
+    }
+    
+    .rq-nav-stream a{
+    text-decoration:none;
+    color:#444;
+    font-size:15px;
+    }
+    
+    .rq-nav-stream a:hover{
+    color:#d61a46;
+    }
+    
+    /* ===== MAIN SECTION ===== */
+    
+    .rq-main-stage{
+    text-align:center;
+    margin-top:80px;
+    }
+    
+    .rq-heading-main{
+    font-size:32px;
+    margin-bottom:8px;
+    }
+    
+    .rq-heading-sub{
+    color:#666;
+    margin-bottom:25px;
+    }
+    
+    /* ===== INFO BOX ===== */
+    
+    .rq-warning-panel{
+    width:700px;
+    margin:auto;
+    background:#f7cbd3;
+    padding:18px;
+    border-radius:12px;
+    border:2px solid #d61a46;
+    margin-bottom:25px;
+    text-align:left;
+    }
+    
+    /* ===== FORM ===== */
+    
+    .rq-form-shell{
+    width:700px;
+    margin:auto;
+    background:white;
+    padding:35px;
+    border-radius:14px;
+    box-shadow:0 6px 20px rgba(0,0,0,0.1);
+    text-align:left;
+    }
+    
+    .rq-form-shell label{
+    display:block;
+    margin-top:16px;
+    font-weight:600;
+    }
+    
+    .rq-input-box{
+    width:100%;
+    padding:12px;
+    margin-top:7px;
+    border-radius:8px;
+    border:1px solid #ccc;
+    font-size:14px;
+    }
+    
+    .rq-input-box:focus{
+    outline:none;
+    border-color:#d61a46;
+    }
+    
+    /* ===== CONDITION BUTTONS ===== */
+    
+    .rq-condition-row{
+    display:flex;
+    gap:15px;
+    margin-top:10px;
+    }
+    
+    .rq-condition-btn{
+    flex:1;
+    padding:10px;
+    border-radius:8px;
+    border:1px solid #ccc;
+    background:white;
+    cursor:pointer;
+    }
+    
+    .rq-condition-btn:hover{
+    border-color:#d61a46;
+    }
+    
+    /* ===== SUBMIT BUTTON ===== */
+    
+    .rq-submit-action{
+    width:100%;
+    margin-top:25px;
+    padding:14px;
+    border:none;
+    background:#d61a46;
+    color:white;
+    font-size:16px;
+    border-radius:10px;
+    cursor:pointer;
+    transition:0.3s;
+    }
+    
+    .rq-submit-action:hover{
+    background:#b9153b;
+    }
+    
+    /* ===== FOOTER NOTE ===== */
+    
+    .rq-footer-note{
+    margin-top:20px;
+    color:#777;
+    font-size:14px;
+    }
+    /* Alerts Page Container */
+.ll-alerts-container {
+    padding: 30px;
+    max-width: 900px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+.ll-alerts-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.ll-alert-badge {
+    background-color: #e63946;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+/* Tabs */
+.ll-alert-tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.ll-tab {
+    padding: 8px 16px;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.ll-tab.active {
+    background-color: #e63946;
+    color: white;
+}
+
+/* Alert Cards */
+.ll-alert-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.ll-alert-card {
+    padding: 20px;
+    border-radius: 12px;
+    background: #ffffff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+/* Variants */
+.ll-alert-critical {
+    background-color: lightpink;
+    color: white;
+}
+
+.ll-alert-camp {
+    background-color: #ff4d6d;
+    color: white;
+}
+
+.ll-alert-reminder {
+    background-color: lightpink;
+}
+
+.ll-alert-success {
+    background-color: #ff4d6d;
+}
+
+.ll-alert-urgent {
+    background-color: lightpink;
+}
+
+/* Footer */
+.ll-alert-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+/* Buttons */
+.ll-btn-primary {
+    background-color: #e63946;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.ll-btn-secondary {
+    background-color: white;
+    color: #e63946;
+    border: 1px solid #e63946;
+    padding: 8px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.ll-btn-primary:hover,
+.ll-btn-secondary:hover {
+    opacity: 0.9;
+}
+
+.bottom{
+    color: #d81b60;
+    text-align: center;
+
+}
+
+/* Donor Page */
+.ll-donor-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+}
+
+.ll-donor-welcome {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Stats */
+.ll-donor-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.ll-donor-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.ll-green {
+    color: green;
+}
+
+/* Badge */
+.ll-blood-badge {
+    background: #e63946;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+/* Eligibility */
+.ll-donor-eligibility {
+    background: #ffe5e9;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Sections */
+.ll-donor-section {
+    margin-bottom: 30px;
+}
+
+/* Request Cards */
+.ll-donor-request-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+/* Camp Cards */
+.ll-donor-camp-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+/* Buttons */
+.ll-btn-primary {
+    background: #e63946;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.ll-btn-primary.full {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.ll-btn-primary:hover {
+    opacity: 0.9;
+}
+
+/* Table */
+.ll-donor-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: lightpink;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.ll-donor-table th {
+    background:#b9153b;
+    padding: 12px;
+    text-align: left;
+}
+
+.ll-donor-table td {
+    padding: 12px;
+    border-top: 1px solid #eee;
+}
+/* Organization Page */
+.ll-org-container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 30px;
+}
+
+.ll-org-subtitle {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+/* Actions */
+.ll-org-actions {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+/* Stats */
+.ll-org-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.ll-org-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+/* Sections */
+.ll-org-section {
+    margin-bottom: 30px;
+}
+
+.ll-org-section-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+/* Cards */
+.ll-org-request-card,
+.ll-org-camp-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.ll-org-btn-row {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+/* Status */
+.ll-org-status {
+    display: inline-block;
+    background: #ddd;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* Table */
+.ll-org-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.ll-org-table th {
+    background: #f8d7da;
+    padding: 12px;
+    text-align: left;
+}
+
+.ll-org-table td {
+    padding: 12px;
+    border-top: 1px solid #eee;
+}
+/* Camps Page */
+.ll-camp-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px;
+}
+
+/* Filter Box */
+.ll-camp-filter-box {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    display: grid;
+    gap: 15px;
+}
+
+.ll-camp-input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.ll-camp-input-group label {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.ll-camp-input-group input,
+.ll-camp-input-group select {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+/* Map */
+.ll-camp-map {
+    background: #f8cdd2;
+    padding: 60px;
+    text-align: center;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+/* Camp Cards */
+.ll-camp-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ll-camp-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+/* Header */
+.ll-camp-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ll-camp-distance {
+    background: #ffd6db;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+/* Organizer */
+.ll-camp-org {
+    color: #e63946;
+    margin-bottom: 10px;
+}
+
+/* Progress */
+.ll-camp-progress {
+    height: 10px;
+    background: #eee;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.ll-camp-progress-bar {
+    height: 100%;
+    background: #28a745;
+    border-radius: 10px;
+}
+
+/* Buttons reuse */
+.ll-btn-primary.full,
+.ll-btn-secondary.full {
+    width: 100%;
+    margin-top: 10px;
+}

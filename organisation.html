@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organization Dashboard - LifeLink</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+
+<header class="navbar">
+
+    <div class="logo">
+    <span class="heart">❤</span>
+    <h2>LifeLink</h2>
+    </div>
+    
+    <nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="lifelink-bloodfinder.html">Find Blood</a></li>
+        <li><a href="camps.html">Camps</a></li>
+        <li><a href="request.html">Request</a></li>
+        <li><a href="donor.html">Donor</a></li>
+        <li><a href="organisation.html">Organisation</a></li>
+        <li><a href="alert.html">Alerts</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="ll-org-container">
+
+    <h1>Organization Dashboard</h1>
+    <p class="ll-org-subtitle">Apollo Hospital - Bangalore • Hospital</p>
+
+    <!-- Actions -->
+    <div class="ll-org-actions">
+        <button class="ll-btn-primary">+ Post Blood Request</button>
+        <button class="ll-btn-secondary">Create Camp</button>
+    </div>
+
+    <!-- Stats -->
+    <div class="ll-org-stats">
+
+        <div class="ll-org-card">
+            <h2>8</h2>
+            <p>Active Blood Requests</p>
+            <span class="ll-green">+2 today</span>
+        </div>
+
+        <div class="ll-org-card">
+            <h2>3</h2>
+            <p>Upcoming Camps</p>
+            <span class="ll-green">Next on Mar 18</span>
+        </div>
+
+        <div class="ll-org-card">
+            <h2>1,247</h2>
+            <p>Registered Donors</p>
+            <span class="ll-green">+45 this week</span>
+        </div>
+
+        <div class="ll-org-card">
+            <h2>2,450</h2>
+            <p>Blood Units Collected</p>
+            <span class="ll-green">+120 this month</span>
+        </div>
+
+    </div>
+
+    <!-- Active Requests -->
+    <div class="ll-org-section">
+        <div class="ll-org-section-header">
+            <h2>Active Blood Requests</h2>
+            <span>View All</span>
+        </div>
+
+        <div class="ll-org-request-card">
+            <span class="ll-blood-badge">O+</span>
+            <h3>Patient: Rajesh Kumar</h3>
+            <p>Condition: Critical • 15 mins ago</p>
+            <div class="ll-org-btn-row">
+                <button class="ll-btn-primary">View Responses</button>
+                <button class="ll-btn-secondary">Edit Request</button>
+            </div>
+        </div>
+
+        <div class="ll-org-request-card">
+            <span class="ll-blood-badge">AB-</span>
+            <h3>Patient: Priya Sharma</h3>
+            <p>Condition: Urgent • 2 hours ago</p>
+            <div class="ll-org-btn-row">
+                <button class="ll-btn-primary">View Responses</button>
+                <button class="ll-btn-secondary">Edit Request</button>
+            </div>
+        </div>
+
+        <div class="ll-org-request-card">
+            <span class="ll-blood-badge">B+</span>
+            <h3>Patient: Amit Patel</h3>
+            <p>Condition: Normal • 5 hours ago</p>
+            <span class="ll-org-status">Fulfilled</span>
+        </div>
+
+    </div>
+
+    <!-- Camps -->
+    <div class="ll-org-section">
+        <div class="ll-org-section-header">
+            <h2>Blood Donation Camps</h2>
+            <span>View All</span>
+        </div>
+
+        <div class="ll-org-camp-card">
+            <h3>Life Savers Blood Donation Drive</h3>
+            <p>March 18, 2026 • MG Road Campus</p>
+            <p>156 registrations</p>
+            <div class="ll-org-btn-row">
+                <button class="ll-btn-primary">Manage Camp</button>
+                <button class="ll-btn-secondary">View Details</button>
+            </div>
+        </div>
+
+        <div class="ll-org-camp-card">
+            <h3>Community Health Initiative</h3>
+            <p>March 25, 2026 • Whitefield Branch</p>
+            <p>89 registrations</p>
+            <div class="ll-org-btn-row">
+                <button class="ll-btn-primary">Manage Camp</button>
+                <button class="ll-btn-secondary">View Details</button>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Donors Table -->
+    <div class="ll-org-section">
+        <div class="ll-org-section-header">
+            <h2>Active Donors Nearby</h2>
+            <span>View All Donors</span>
+        </div>
+
+        <table class="ll-org-table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Blood Group</th>
+                    <th>Distance</th>
+                    <th>Last Donation</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Amit Verma</td>
+                    <td><span class="ll-blood-badge">O+</span></td>
+                    <td>2.3 km</td>
+                    <td>Dec 2025</td>
+                    <td><button class="ll-btn-primary">Contact</button></td>
+                </tr>
+                <tr>
+                    <td>Sneha Reddy</td>
+                    <td><span class="ll-blood-badge">A+</span></td>
+                    <td>3.7 km</td>
+                    <td>Jan 2026</td>
+                    <td><button class="ll-btn-primary">Contact</button></td>
+                </tr>
+                <tr>
+                    <td>Karan Singh</td>
+                    <td><span class="ll-blood-badge">B+</span></td>
+                    <td>1.8 km</td>
+                    <td>Nov 2025</td>
+                    <td><button class="ll-btn-primary">Contact</button></td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+</section>
+
+</body>
+</html>
